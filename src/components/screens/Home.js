@@ -1,17 +1,11 @@
+import HeaderComponent from "../Header/Header";
+
+
 export default function HomeScreen() {
     return (
 
         <>
-            <header>
-                <nav> 
-                    <ul>
-                        <li>Home</li>
-                        <li>Portifolio</li>
-                        <li>GitHub</li>
-                        
-                    </ul>
-                </nav>
-            </header>
+          <HeaderComponent/>
             <main>
                 <section>
                     <h1>Sobre</h1>

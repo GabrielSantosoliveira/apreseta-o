@@ -1,0 +1,33 @@
+.cabeçalho{
+    background-color:#000000;
+    color:#ffffff;
+    padding:1.7rem;
+    width:100vw;
+}
+
+.lista{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.link{
+    font-family:sans-serif;
+    font-size:1.7rem;
+}
+@media (max-width: 425px){
+
+
+    .link{
+        font-family:sans-serif;
+        font-size:1.3rem;
+        margin:0 5px;
+    }
+
+    .lista{
+       
+        justify-content:space-between;
+    }
+
+}
