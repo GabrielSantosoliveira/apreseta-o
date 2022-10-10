@@ -1,16 +1,27 @@
-import HeaderComponent from "../Header/Header";
-
+import style from "../../components/screens/test.module.css"
+import TituloComponent from "../Titulo/Titulo"
+import paragrafoComponent from "../../components/Paragrafo/Paragrofo"
 
 export default function HomeScreen() {
     return (
 
         <>
-          <HeaderComponent/>
-            <main>
-                <section>
-                    <h1>Sobre</h1>
-                    <img src="#" alt="minha foto " />
-                    <p>Oi, sou Gabriel, sou facinado por programação desdos meu 11 anos de idade, sempre gostei de criar coisas e quando vi a programação pela primeira vez me encantei, tudo sei  eu aprendi com  tutorial no yutube, então convido você para ver os meus comnhecimentos e so rolar para baixo </p>
+          
+            <main className={style.main}>
+                <section className={style.sobreCard}>
+                    <img 
+                    src="https://avatars.githubusercontent.com/u/72681794?v=4" 
+                    alt="minha foto " 
+                    className={style.img}
+                    />
+                    <div className={style.div}>
+
+                    <TituloComponent tamanho="2.9rem">
+                        Sobre
+                    </TituloComponent>
+                    <paragrafoComponent tamanho="1.9rem">Oi, sou Gabriel, sou facinado por programação desdos meu 11 anos de idade, sempre gostei de criar coisas e quando vi a programação pela primeira vez me encantei, tudo sei  eu aprendi com  tutorial no yutube, então convido você para ver os meus comnhecimentos e so rolar para baixo </paragrafoComponent>
+
+                    </div>
                 </section>
                 <section>
                     <h1>tecnologias</h1>
