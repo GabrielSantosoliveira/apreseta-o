@@ -10,7 +10,7 @@ export default function paragrafoComponent({ children, tamanho }) {
     font-size:${tamanho};
     margin:3px;
     padding: 5px;
-    text-align: right;
+    text-align: left;
 
 }
             
