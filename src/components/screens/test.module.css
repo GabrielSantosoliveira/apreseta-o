@@ -1,9 +1,4 @@
-.main {
-    width:100vw;
-    height:100vh
 
-
-}
 
 .sobreCard{
     font-family:sans-serif;
@@ -36,7 +31,7 @@
     text-align: right;
 
 }
-.div{
+.divSobre{
     display:flex;
     flex-direction:column;
     justify-content:center;

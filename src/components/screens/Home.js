@@ -1,20 +1,21 @@
 import style from "../../components/screens/test.module.css"
 import TituloComponent from "../Titulo/Titulo"
 import paragrafoComponent from "../../components/Paragrafo/Paragrofo"
+import MainComponent from "../main/Main"
 
 export default function HomeScreen() {
     return (
 
         <>
           
-            <main className={style.main}>
+            <MainComponent>
                 <section className={style.sobreCard}>
                     <img 
                     src="https://avatars.githubusercontent.com/u/72681794?v=4" 
                     alt="minha foto " 
                     className={style.img}
                     />
-                    <div className={style.div}>
+                    <div className={style.divSobre}>
 
                     <TituloComponent tamanho="2.9rem">
                         Sobre
@@ -60,7 +61,7 @@ export default function HomeScreen() {
                     <p>Esse saite foi comtruido usando todas essas tecnologias,porem comvido a acessar o meu <a href="#">  Portifolio Clicando Aqui </a>  </p>
 
                 </section>
-            </main>
+            </MainComponent>
         </>
     )
 }
